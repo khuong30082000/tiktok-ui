@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+  margin-left: 1.2rem;
+}
+
+.name {
+  font-size: 1.4rem;
+}
+
+.username {
+}

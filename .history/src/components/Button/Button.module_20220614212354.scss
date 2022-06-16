@@ -1,0 +1,21 @@
+.wrapper {
+  border-radius: 0.4rem;
+  min-width: 10rem;
+  padding: 0.9rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.primary {
+  color: var(--white);
+  background-color: var(--primary);
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
+  }
+}
+.outline {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: transparent;
+}
