@@ -17,7 +17,6 @@
     opacity: 0.5;
   }
 }
-
 .icon + .title,
 .title + .icon {
   margin-left: 0.8rem;
@@ -74,4 +73,8 @@
     border-color: rgba(22, 24, 35, 0.2);
     background-color: rgba(22, 24, 35, 0.03);
   }
+}
+.cross {
+  position: relative;
+  left: 20%;
 }

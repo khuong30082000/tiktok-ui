@@ -17,7 +17,11 @@
     opacity: 0.5;
   }
 }
-
+.cross {
+  position: relative;
+  right: 10px;
+  top: 2px;
+}
 .icon + .title,
 .title + .icon {
   margin-left: 0.8rem;

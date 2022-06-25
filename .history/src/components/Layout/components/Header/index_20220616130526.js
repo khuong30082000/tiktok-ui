@@ -92,8 +92,6 @@ function Header() {
             </button>
           </div>
         </Tippy>
-
-             
         <div className={cx('actions')}>
           <Button cross text>
             Upload

@@ -17,7 +17,6 @@
     opacity: 0.5;
   }
 }
-
 .icon + .title,
 .title + .icon {
   margin-left: 0.8rem;
@@ -57,7 +56,10 @@
     border-color: currentColor;
   }
 }
-
+.cross {
+  width: 15px;
+  display: inline-block;
+}
 //button size
 .small {
   min-width: 8.8rem;

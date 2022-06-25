@@ -37,7 +37,6 @@ const MENU_ITEMS = [
         {
           code: 'vi',
           title: 'Việt Nam',
-          type: 'language',
         },
       ],
     },
@@ -92,8 +91,6 @@ function Header() {
             </button>
           </div>
         </Tippy>
-
-             
         <div className={cx('actions')}>
           <Button cross text>
             Upload

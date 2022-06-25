@@ -32,12 +32,10 @@ const MENU_ITEMS = [
         {
           code: 'en',
           title: 'English',
-          type: 'language',
         },
         {
           code: 'vi',
           title: 'Việt Nam',
-          type: 'language',
         },
       ],
     },
@@ -55,12 +53,6 @@ const MENU_ITEMS = [
 
 function Header() {
   const [searchResult, setSearchResult] = useState([]);
-
-  //handle Logic
-
-  const handleMenuChange = (menuItem) => {
-    console.log(menuItem);
-  };
 
   return (
     <header className={cx('wrapper')}>
@@ -92,14 +84,12 @@ function Header() {
             </button>
           </div>
         </Tippy>
-
-             
         <div className={cx('actions')}>
           <Button cross text>
             Upload
           </Button>
           <Button primary>Follow</Button>
-          <Menu items={MENU_ITEMS} onChange={handleMenuChange}>
+          <Menu items={MENU_ITEMS}>
             <button className={cx('more-btn')}>
               <FontAwesomeIcon icon={faEllipsisVertical} />
             </button>

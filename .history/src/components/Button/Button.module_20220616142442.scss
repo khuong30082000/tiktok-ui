@@ -17,7 +17,6 @@
     opacity: 0.5;
   }
 }
-
 .icon + .title,
 .title + .icon {
   margin-left: 0.8rem;
@@ -56,6 +55,9 @@
     background-color: rgba(254, 44, 85, 0.06);
     border-color: currentColor;
   }
+}
+.cross {
+  height: 1rem;
 }
 
 //button size
